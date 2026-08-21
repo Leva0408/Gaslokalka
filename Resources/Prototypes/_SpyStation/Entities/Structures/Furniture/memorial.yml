@@ -1,0 +1,97 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: entity
+  id: GaslokalkaLegacyMemorial
+  parent: BaseStructure
+  name: Мемориал Gaslokalka Legacy
+  description: Мемориал Gaslokalka Legacy, то есть билд 06.2026, до удаления треков..
+  components:
+  - type: Sprite
+    sprite: _SpyStation/Structures/Furniture/Memorials/gaslokalka_legacy_memorial.rsi
+    state: gaslokalka_legacy_memorial
+  - type: Transform
+    noRot: true
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.45,-0.45,0.45,0.20"
+        density: 85
+        mask:
+        - FullTileMask
+        layer:
+        - WallLayer
+  - type: InteractionOutline
+
+- type: entity
+  id: KhlamidiyaMemorial
+  parent: BaseStructure
+  name: Мемориал Хламидия
+  description: Мемориал трека Хламидия - 5opka & MellSher, который варварскому беззаконию.
+  components:
+  - type: Sprite
+    sprite: _SpyStation/Structures/Furniture/Memorials/khlamidiya_memorial.rsi
+    state: khlamidiya_memorial
+  - type: Transform
+    noRot: true
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.45,-0.45,0.45,0.20"
+        density: 85
+        mask:
+        - FullTileMask
+        layer:
+        - WallLayer
+  - type: InteractionOutline
+
+- type: entity
+  id: PolnyybakMemorial
+  parent: BaseStructure
+  name: Мемориал Полному баку
+  description: Мемориал трека Полный бак - BUSTER, который варварскому беззаконию.
+  components:
+  - type: Sprite
+    sprite: _SpyStation/Structures/Furniture/Memorials/polnyybak_memorial.rsi
+    state: polnyybak_memorial
+  - type: Transform
+    noRot: true
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.45,-0.45,0.45,0.20"
+        density: 85
+        mask:
+        - FullTileMask
+        layer:
+        - WallLayer
+  - type: InteractionOutline
+
+- type: entity
+  id: RippedjeansMemorial
+  parent: BaseStructure
+  name: Мемориал Рваных джинс
+  description: Мемориал трека Рваные джинсы - Элджей, который варварскому беззаконию.
+  components:
+  - type: Sprite
+    sprite: _SpyStation/Structures/Furniture/Memorials/rippedjeans_memorial.rsi
+    state: rippedjeans_memorial
+  - type: Transform
+    noRot: true
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.45,-0.45,0.45,0.20"
+        density: 85
+        mask:
+        - FullTileMask
+        layer:
+        - WallLayer
+  - type: InteractionOutline
