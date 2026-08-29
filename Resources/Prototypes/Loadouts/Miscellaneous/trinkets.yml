@@ -756,3 +756,24 @@
   storage:
     back:
     - PlushieJohnAndreevich
+
+- type: loadout
+  id: ClothingHeadCrownofThorns
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: JobHeadOfSecurity 
+      time: 1000h # 1000 hrs
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: JobBlueshieldOfficer
+      time: 100h # 100 hrs
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:OverallPlaytimeRequirement
+      time: 10h # 10hr
+  storage:
+    back:
+    - ClothingHeadCrownofThorns
