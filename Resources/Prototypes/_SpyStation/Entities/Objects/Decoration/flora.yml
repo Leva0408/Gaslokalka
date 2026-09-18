@@ -4,7 +4,7 @@
   name: манговое дерево
   components:
   - type: Sprite
-    sprite: _Spystation/Objects/Decoration/Flora/mango_trees.rsi
+    sprite: _SpyStation/Objects/Decoration/Flora/mango_trees.rsi
     layers:
     - state: tree01
       map: ["random"]
