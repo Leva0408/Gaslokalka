@@ -52,9 +52,6 @@
     Telecrystal: 20
   categories:
   - UplinkDeception
-<<<<<<< HEAD
-  
-=======
 
 - type: listing
   id: UplinkSyndicateGorilla
@@ -89,7 +86,6 @@
     - Librarian
 # CorvaxGoob-DiceOfFate : Corvax Wega Port (original author: Zekins3366) end
 
->>>>>>> upstream/master
 - type: listing
   id: UplinkToolboxElectricalTurret
   name: uplink-toolbox-electrical-turret-name
@@ -106,18 +102,6 @@
       - Engineering
 
 - type: listing
-  id: UplinkWristwatchSyndi
-  name: uplink-syndi-wristwatch-name
-  description: uplink-syndi-wristwatch-desc
-  productEntity: WristwatchSyndi
-  discountCategory: veryRareDiscounts
-  discountDownTo:
-    Telecrystal: 10
-  cost:
-    Telecrystal: 20
-  categories:
-
-- UplinkDeception
   id: UplinkMimejutsuManualMime
   name: uplink-mimejutsu-name
   description: uplink-mimejutsu-desc
